@@ -39,7 +39,22 @@
     "Workspace": {
       "$className": "Workspace",
       "$ignoreUnknownInstances": true,
-      "$path": "src/Workspace"
+      "$path": "src/Workspace",
+      "Vehicles": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Workspace/Vehicles"
+      },
+      "Terrain": {
+        "$className": "Terrain",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Workspace/Terrain"
+      },
+      "Folder": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Workspace/Folder"
+      }
     }
   }
 }
