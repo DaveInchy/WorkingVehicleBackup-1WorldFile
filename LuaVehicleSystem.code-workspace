@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.suggestSelection": "first",
+		"editor.suggest.insertMode": "replace",
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": true,
+			"strings": false
+		},
+		"editor.suggest.showWords": true,
+		"editor.suggest.showIcons": true,
+		"editor.suggest.showStatusBar": true,
+		"files.watcherExclude": {
+			"**/.git/objects/**": true,
+			"**/.git/subtree-cache/**": true,
+			"**/node_modules/**": true,
+			"**/bower_components/**": true,
+			"**/build/**": true,
+			"**/dist/**": true,
+			"**/out/**": true,
+			"**/tmp/**": true,
+			"**/temp/**": true
+		},
+		"editor.formatOnSave": true
+	}
+}
